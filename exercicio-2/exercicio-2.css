@@ -70,3 +70,22 @@ button {
   grid-column: 4;
   grid-row: 3/7;
 }
+
+/* BOTAO VOLTAR */
+.btn-voltar {
+  display: block;
+  max-width: 80px;
+  background-color: #2a3340;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s all;
+}
+
+.btn-voltar:hover {
+  background-color: #5b89ff;
+}
