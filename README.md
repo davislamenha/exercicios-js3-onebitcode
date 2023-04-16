@@ -25,6 +25,12 @@
 
 - Modularizar o código javascript da aplicação, dividindo o conteúdo do arquivo index.js em diferentes módulos utilizando a sintaxe dos ES Modules.
 
+### Exercício 3
+
+#### Datas com dayjs
+
+- Criar uma função javascript que recebe como parâmetro a data de nascimento de uma pessoa no formato string e mostre no terminal a idade dessa pessoa no dia atual, sua próxima data de aniversário no formato “DD/MM/AAAA” e quantos dias faltam para o próximo aniversário dela. Para isso,deverá ser utilizado o módulo dayjs, disponível no npm.
+
 ## Meta
 
 Davis Lamenha Sampaio - [Linkedin](https://www.linkedin.com/in/davislamenha/) - davislamenha@gmail.com
