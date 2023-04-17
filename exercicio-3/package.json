@@ -4,7 +4,7 @@
   "description": "",
   "main": "exercicio-3.js",
   "scripts": {
-    "babel": "babel src --out-dir dist --presets=@babel/preset-env"
+    "babel": "babel src --out-dir dist"
   },
   "author": "",
   "license": "ISC",
