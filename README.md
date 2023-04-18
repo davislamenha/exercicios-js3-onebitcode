@@ -31,6 +31,18 @@
 
 - Criar uma função javascript que recebe como parâmetro a data de nascimento de uma pessoa no formato string e mostre no terminal a idade dessa pessoa no dia atual, sua próxima data de aniversário no formato “DD/MM/AAAA” e quantos dias faltam para o próximo aniversário dela. Para isso,deverá ser utilizado o módulo dayjs, disponível no npm.
 
+### Exercício 4
+
+#### Estruturando um Projeto Moderno
+
+> O objetivo nesse exercício é preparar toda a estrutura necessária para trabalhar em um projeto front-end moderno unificando todo o conhecimento aprendido até o momento
+
+- Criar um projeto npm e instalar nele o webpack e o babel, integrar o babel ao webpack utilizando o babel-loader (que pode ser instalado através do npm). Você também deverá integrar o css ao webpack, utilizando o style-loader e o css-loader (ambos podem ser instalados através do npm).
+
+- Para executar o webpack você deverá criar um script chamado “build”. Além disso, a saída do webpack deve ser nomeada de acordo com o nome do ponto de entrada no formato “[name].min.js” e o seu conteúdo deve estar minificado.
+
+- Testar seu projeto criando uma página html simples que seja capaz de carregar a estilização e o javascript de saída do webpack corretamente.
+
 ## Meta
 
 Davis Lamenha Sampaio - [Linkedin](https://www.linkedin.com/in/davislamenha/) - davislamenha@gmail.com
