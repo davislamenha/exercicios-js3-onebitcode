@@ -1,12 +1,19 @@
 const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    exercicio_2: './src/exercicio_2.js',
+    index: './src/index.js',
+    exercicio_2: './src/exercicio_2.css',
   },
   mode: 'production',
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.min.js',
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
+    ],
   },
+  plugins: [new MiniCssExtractPlugin()],
 };
